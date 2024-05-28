@@ -1,0 +1,6 @@
+[submodule "ft_printf"]
+	path = ft_printf
+	url = https://github.com/itsmeodx/ft_printf.git
+[submodule "get_next_line"]
+	path = get_next_line
+	url = https://github.com/itsmeodx/get_next_line.git
