@@ -38,8 +38,12 @@ out
 *.x86_64
 *.hex
 test
+pipex
+pipex_bonus
+
+# Random .c files
 test.c
-main.c
+#main.c
 .main.c
 main
 
@@ -49,6 +53,7 @@ main
 *.idb
 *.pdb
 vgcore.*
+.gdb*
 
 # Kernel Module Compile Results
 *.mod*
@@ -77,3 +82,9 @@ cmake-build-debug
 
 # README file
 #*.md
+
+# LICENSE file
+#*LICENSE
+
+# Hidden files
+#.*
