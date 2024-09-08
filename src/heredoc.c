@@ -6,7 +6,7 @@
 /*   By: oouaadic <oouaadic@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 10:11:50 by oouaadic          #+#    #+#             */
-/*   Updated: 2024/05/16 18:12:25 by oouaadic         ###   ########.fr       */
+/*   Updated: 2024/08/11 12:01:27 by oouaadic         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,8 @@ static char	*ft_parse_line(t_pipex *pipe_list, char *line)
 			while (line[i] && ft_isalnum(line[i]))
 				i++;
 			i--;
+			if (line[i] == '$')
+				continue ;
 			ft_while(pipe_list, &line, &i, &j);
 			i--;
 		}
